@@ -1,46 +1,47 @@
-let count = 0
+let counthome = 0
+let countaway = 0
 
 let sumHome = document.getElementById("scoreboardhome")
 let sumAway = document.getElementById("scoreboardaway")
 
 function add1h() {
-    count += 1
-    sumHome.textContent = count
+    counthome += 1
+    sumHome.textContent = counthome
 }
 
 function add2h(){
-    count += 2
-    sumHome.textContent = count
+    counthome += 2
+    sumHome.textContent = counthome
 }
 
 function add3h(){
-    count += 3
-    sumHome.textContent = count
+    counthome += 3
+    sumHome.textContent = counthome
 }
 
 function add1a() {
-    count += 1
-    sumAway.textContent = count
+    countaway += 1
+    sumAway.textContent = countaway
 }
 
 function add2a() {
-    count += 2
-    sumAway.textContent = count
+    countaway += 2
+    sumAway.textContent = countaway
 }
 
 function add3a() {
-    count += 3
-    sumAway.textContent = count
+    countaway += 3
+    sumAway.textContent = countaway
 }
 
 function reseth(){
-    count = 0
-    sumHome.textContent = count
+    counthome = 0
+    sumHome.textContent = counthome
 }
 
 function reseta(){
-    count = 0
-    sumAway.textContent = count
+    countaway = 0
+    sumAway.textContent = countaway
 }
 
 
